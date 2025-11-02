@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>The Cuisine House</title>
+  <link rel="icon" id="favicon" type="image/x-icon" href="picture/cheficon.jpg">
+  <link rel="stylesheet" href="Home.css">
+</head>
+
+<body>
+  <div class="home-page">
+    <div class="nav-bar">
+      <div class="nav-bar-1">
+        <img id="img-1" src="picture/cheficon.jpg">
+      </div>
+      <div class="nav-bar-2">
+        <p id="title">The Cuisine House</p>
+      </div>
+      <div class="nav-bar-3">
+        <a id="home" href="Home.html">Home</a>
+      </div>
+      <div class="nav-bar-4">
+        <a id="about" href="About.html">About us</a>
+      </div>
+      <div class="nav-bar-5">
+        <a id="contact" href="Contact.html">Contact</a>
+      </div>
+      <div class="nav-bar-6">
+        <button id="login-button">Log in</button>
+      </div>
+
+    </div>
+    <div class="hero-section">
+      <div class="hero-section-1">
+        <p id="welcome-text">
+
+          Welcome To The Cuisine House</p>
+      </div>
+      <div class="hero-section-2">
+        <img id="restaurant" src="picture/restaurant.jpg">
+      </div>
+    </div>
+    <div class="order">
+      <div class="order-1">
+        <p>Place your order</p>
+        <img src="picture/order.jpg" id="order-img">
+      </div>
+      <div>
+        <button id="order-button" onclick="RedirectToPage()">order</button>
+      </div>
+
+    </div>
+    <div class="reason">
+      <p id="choose"> Why choose us?</p>
+    </div>
+
+    <div class="reason-1">
+      <div class="first">
+        <img id="first-img" src="picture/veggies.jpg">
+        <p id="text-1">We use fresh ingredients direct from local farm</p>
+      </div>
+      <div class="second">
+        <img id="second-img" src="picture/cozy.jpg">
+        <p id="text-2">Clean and cozy ambience</p>
+      </div>
+    </div>
+    <div class="reason-2">
+      <div class="third">
+        <img id="third-img" src="picture/food.jpg">
+        <p id="text-3"> Good quality food at reasonable price</p>
+      </div>
+      <div class="fourth">
+        <img id="fourth-img" src="picture/street.jpg">
+        <p id="text-4">located near </p>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function RedirectToPage() {
+      window.location.href = 'Order.html';
+    }
+  </script>
+</body>
+
+</html>
