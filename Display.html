@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <title>The Cuisine House</title>
+    <link rel="icon" id="favicon" type="image/x-icon" href="picture/cheficon.jpg">
+    <link rel="stylesheet" href="Display.css">
+  </title>
+
+</head>
+
+<body>
+  <div class="title">
+    <h2 id="your-order">Your order</h2>
+    <img src="picture/dumpling.jpg" id="dumpling">
+  </div>
+  <div class="order-list">
+    <div id="drink-list">
+      <h3>Drinks:</h3>
+
+    </div>
+    <div id="appetizer-list">
+      <h3>Appetizers:</h3>
+
+    </div>
+  </div>
+  <div class="question">
+    <p>Would you like to order more?</p>
+    <button id="go-back-button">Go back to previous page</button>
+  </div>
+
+  <script>
+    const drinks = JSON.parse(localStorage.getItem("selectedDrinks"));
+    const appetizers = JSON.parse(localStorage.getItem("selectedAppetizer"));
+    if (drinks && drinks.length > 0) {
+      const drinklist = document.getElementById("drink-list");
+
+      drinks.forEach(drink => {
+        const p = document.createElement("p");
+        p.textContent = drink;
+        drinklist.appendChild(p);
+      });
+    }
+    else {
+      document.getElementById("drink-list").textContent = "No drinks selected";
+    }
+    if (appetizers && appetizers.length > 0) {
+      const appetizerlist = document.getElementById("appetizer-list");
+      appetizers.forEach(appetizer => {
+        const a = document.createElement("p");
+        a.textContent = appetizer;
+        appetizerlist.appendChild(a);
+      })
+    }
+    else {
+
+      document.getElementById("appetizer-list").textContent = "No drinks selected";
+    }
+
+    const btn = document.getElementById("go-back-button");
+    btn.addEventListener("click", function (event) {
+      window.location.href = "Order.html";
+    })
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+body {
+  background-color: beige;
+}
+
+.title {
+  display: inline-flex;
+  width: 1200px;
+  align-items: center;
+}
+
+#your-order {
+  font-size: 40px;
+  color: #9C6F5C;
+  margin-left: 5%;
+  margin-top: 5%;
+  width: 20%;
+}
+
+.order-list {
+  display: inline-flex;
+  width: 1200px;
+}
+
+#drink-list {
+  font-size: 25px;
+  color: #9C6F5C;
+  margin-left: 8%;
+  width: 30%;
+  background-color: rgb(236, 236, 210);
+  border: 1px solid #f1bca6;
+  padding-left: 3%;
+
+}
+
+#appetizer-list {
+  font-size: 25px;
+  color: #9C6F5C;
+  padding-left: 3%;
+  width: 30%;
+  background-color: rgb(236, 236, 210);
+  border: 1px solid #f1bca6;
+
+}
+
+.question {
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.question p {
+  font-size: 30px;
+  color: #9C6F5C;
+}
+
+#dumpling {
+  width: 90px;
+  height: 90px;
+  border: 1px solid beige;
+  border-radius: 50%;
+
+}
+
+.question button {
+
+  background-color: #D1A699;
+  height: 60px;
+  border: 1px solid beige;
+  font-size: 20px;
+
+  margin-left: 6%;
+  box-shadow: 8px 10px 10px #eebaaa;
+  color: #754d3d;
+}
