@@ -205,3 +205,39 @@ input[type="checkbox"] {
   box-shadow: 8px 10px 10px #eebaaa;
   color: #754d3d;
 }
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+
+}
+
+.popup-content {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.popup button {
+  margin: 10px;
+  padding: 8px 20px;
+  border: none;
+  background-color: #754d3d;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #d4a08b;
+}
