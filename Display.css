@@ -4,6 +4,8 @@ body {
 
 .main {
   width: 1200px;
+  display: grid;
+  justify-content: center;
 }
 
 .title {
@@ -13,9 +15,8 @@ body {
 }
 
 .Checkout {
-  align-content: center;
-  margin-left: 81%;
-
+  display: grid;
+  justify-content: end;
 }
 
 #checkout-btn {
@@ -25,7 +26,6 @@ body {
   font-size: 15px;
   width: 150px;
   font-weight: bold;
-
   box-shadow: 10px 5px 10px #eebaaa;
   color: #4e2e22;
   padding-bottom: 1%;
@@ -41,7 +41,7 @@ body {
   color: #9C6F5C;
   margin-left: 40%;
   margin-top: 5%;
-  width: 150%;
+  width: 17vw;
 }
 
 .order-list-1,
@@ -54,7 +54,7 @@ body {
 #knoodle-list {
   font-size: 22px;
   color: #9C6F5C;
-  margin-left: 8%;
+  margin-left: 18vw;
   margin-bottom: 1%;
   width: 30%;
   background-color: rgb(236, 236, 210);
@@ -77,8 +77,10 @@ body {
 }
 
 .question {
-  margin-left: 30%;
-  margin-top: 5%;
+  /*margin-left: 30%;
+  margin-top: 5%;*/
+  display: grid;
+  justify-content: center;
 }
 
 .question p {
