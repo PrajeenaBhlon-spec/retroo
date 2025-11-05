@@ -83,7 +83,7 @@ a {
   width: 1200px;
   display: inline-flex;
   margin-top: 3%;
-  padding-left: 15%;
+  padding-left: 10%;
   align-content: center;
 }
 
@@ -103,24 +103,45 @@ a {
   padding: 1%;
 }
 
-.main-menu {
+.main-menu-1,
+.main-menu-2 {
   width: 1200px;
   display: flex;
 }
 
 .drinks {
-  width: 30%;
+  width: 40%;
   height: 270px;
   background-color: rgb(236, 236, 210);
   border: 1px solid #ccb3a9;
   border-radius: 5%;
   padding-left: 10%;
-  margin-left: 15%;
+  margin-left: 10%;
 
 }
 
+.knoodles {
+  width: 40%;
+  height: 270px;
+  background-color: rgb(236, 236, 210);
+  border: 1px solid #ccb3a9;
+  border-radius: 5%;
+  padding-left: 10%;
+  margin-left: 10%;
+}
+
 .appetizer {
-  width: 30%;
+  width: 40%;
+  height: 270px;
+  background-color: rgb(236, 236, 210);
+  border: 1px solid #ccb3a9;
+  border-radius: 5%;
+  padding-left: 10%;
+  margin-right: 15%;
+}
+
+.main-dishes {
+  width: 40%;
   height: 270px;
   background-color: rgb(236, 236, 210);
   border: 1px solid #ccb3a9;
@@ -130,7 +151,9 @@ a {
 }
 
 .drink-title,
-.appetizer-title {
+.appetizer-title,
+.knoodles-title,
+.main-dish-title {
   display: inline-flex;
   align-items: center;
 }
@@ -144,7 +167,9 @@ a {
 }
 
 .drink-title p,
-.appetizer-title p {
+.appetizer-title p,
+.knoodles-title p,
+.main-dish-title p {
   font-size: 35px;
   font-weight: 400;
   color: #9C6F5C;
@@ -153,7 +178,9 @@ a {
 }
 
 .drink-option label,
-.appetizer-option label {
+.appetizer-option label,
+.knoodle-option label,
+.main-dish-option label {
   font-size: 20px;
   color: #9C6F5C;
   margin-bottom: 3%;
@@ -161,5 +188,20 @@ a {
 
 input[type="checkbox"] {
   accent-color: #9C6F5C;
+}
 
+.order {
+  width: 1200px;
+}
+
+#order-button {
+  background-color: #D1A699;
+  font-size: 15px;
+  margin-left: 38%;
+  width: 200px;
+  height: 40px;
+  border: 1px none beige;
+  margin-top: 5%;
+  box-shadow: 8px 10px 10px #eebaaa;
+  color: #754d3d;
 }

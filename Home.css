@@ -146,12 +146,15 @@ a {
 .order-1 {
   display: inline-flex;
   position: relative;
-  animation: slideRight 2s ease-out forwards;
+  animation: slideRight 5s;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
 }
 
 @keyframes slideRight {
   from {
-    left: -200px;
+    left: -300px;
     opacity: 0;
   }
 

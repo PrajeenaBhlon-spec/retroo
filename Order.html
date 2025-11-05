@@ -5,6 +5,7 @@
   <title>The Cuisine House</title>
   <link rel="icon" id="favicon" type="image/x-icon" href="picture/cheficon.jpg">
   <link rel="stylesheet" href="Order.css">
+
 </head>
 
 <body>
@@ -34,7 +35,7 @@
       <img src="picture/menu.jpg" id="menu-img">
     </div>
 
-    <div class="main-menu">
+    <div class="main-menu-1">
       <div class="drinks">
         <div class="drink-title">
           <p>Drinks</p>
@@ -42,19 +43,19 @@
         </div>
         <div class="drink-option">
           <div>
-            <label><input type="checkbox" id="peach"> Peached iced tea</label>
+            <label><input type="checkbox" name="drink" id="peach" value="Peached iced tea"> Peached iced tea</label>
           </div>
           <div>
-            <label><input type="checkbox" id="lemon">Lemon tea</label>
+            <label><input type="checkbox" name="drink" id="lemon" value="Lemon tea">Lemon tea</label>
           </div>
           <div>
-            <label><input type="checkbox" id="americano">Americano</label>
+            <label><input type="checkbox" name="drink" id="americano" value="Americano">Americano</label>
           </div>
           <div>
-            <label><input type="checkbox" id="green">Green tea</label>
+            <label><input type="checkbox" name="drink" id="green" value="Green tea">Green tea</label>
           </div>
           <div>
-            <label><input type="checkbox" id="milk">Milk tea</label>
+            <label><input type="checkbox" name="drink" id="milk" value="Milk tea">Milk tea</label>
           </div>
         </div>
       </div>
@@ -65,20 +66,73 @@
         </div>
         <div class="appetizer-option">
           <div>
-            <label><input type="checkbox" id="fries"> French Fries</label>
+            <label><input type="checkbox" name="appetizer" id="fries" value="French fries"> French Fries</label>
           </div>
           <div>
-            <label><input type="checkbox" id="wing">Buffalo wings</label>
+            <label><input type="checkbox" name="appetizer" id="wing" value="Buffalo Wings">Buffalo wings</label>
           </div>
           <div>
-            <label><input type="checkbox" id="chik">Chicken popcorn</label>
+            <label><input type="checkbox" name="appetizer" id="chik" value="Chicken popcorn">Chicken popcorn</label>
           </div>
           <div>
-            <label><input type="checkbox" id="bread">Garlic bread</label>
+            <label><input type="checkbox" name="appetizer" id="bread" value="Garlic bread">Garlic bread</label>
           </div>
 
         </div>
       </div>
     </div>
+    <div class="main-menu-2">
+      <div class="knoodles">
+        <div class="knoodles-title">
+          <p>Knoodle</p>
+          <img src="picture/drink.jpg" id="drink-img">
+        </div>
+        <div class="knoodle-option">
+          <div>
+            <label><input type="checkbox" name="knoodle" id="fries" value="Spicy ramen">Spicy korean ramen</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="knoodle" id="wing" value="Stir fry knoodle">Stir fry knoodles</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="knoodle" id="chik" value="Japanese ramen">Japanese ramen</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="knoodle" id="bread" value="Chowmien">Chowmien</label>
+          </div>
+
+        </div>
+      </div>
+      <div class="main-dishes">
+        <div class="main-dish-title">
+          <p>MainDish</p>
+          <img src="picture/drink.jpg" id="drink-img">
+        </div>
+        <div class="main-dish-option">
+          <div>
+            <label><input type="checkbox" name="main-dish" id="fries" value="Pepporoni pizza">Pepporoni pizza</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="main-dish" id="wing" value="Chilli momo">Chilli momo</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="main-dish" id="chik" value="Burger">Burger</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="main-dish" id="bread" value="Cheese cake">Cheese cake</label>
+          </div>
+          <div>
+            <label><input type="checkbox" name="main-dish" id="bread" value="Chicken wings">Chicken wings</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="order">
+      <button id="order-button">Place order</button>
+    </div>
   </div>
+  <script src="Order.js"></script>
 </body>

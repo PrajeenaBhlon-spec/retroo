@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>The Cuisine House</title>
+  <link rel="icon" id="favicon" type="image/x-icon" href="picture/cheficon.jpg">
+  <link rel="stylesheet" href="Contact.css">
+  <style>
+    body {
+      background-color: beige;
+      display: grid;
+      justify-content: center;
+    }
+
+    #username {
+      background: url("picture/person.png") no-repeat 200px center;
+    }
+
+    #password {
+      background: url("picture/lock.png") no-repeat 200px center;
+    }
+
+    .login-page {
+      width: 380px;
+      background-color: rgb(236, 236, 210);
+      border: 1px solid #ccb3a9;
+      margin-top: 10vw;
+      height: 340px;
+    }
+
+    .login-page-1 {
+      font-size: 23px;
+      color: #9C6F5C;
+      font-weight: bold;
+      padding-left: 12vw;
+    }
+
+    .login-page-2,
+    .login-page-3 {
+      margin: 3%;
+    }
+
+    .login-page-2 input,
+    .login-page-3 input {
+      height: 40px;
+      width: 230px;
+      margin-left: 5vw;
+      font-size: 15px;
+      color: #9C6F5C;
+      border: 1px solid #9b8279;
+      border-radius: 5vw;
+      background-color: beige;
+      padding-left: 2%;
+    }
+
+    #login-btn {
+      height: 40px;
+      width: 100px;
+      background-color: #9b8279;
+      font-size: 15px;
+      color: whitesmoke;
+      border: 1px none;
+      margin-left: 11vw;
+      border-radius: 5vw;
+    }
+
+    .login-page-5 {
+      margin: 2%;
+      display: grid;
+      justify-content: end;
+    }
+
+    .login-page-5 a {
+      color: #9C6F5C;
+
+      font-size: 12px;
+    }
+
+    .login-page-5 a:hover,
+    .login-page-6 a:hover {
+      text-decoration: underline;
+    }
+
+    .login-page-4 {
+      margin: 2%;
+    }
+
+    .login-page-6 {
+      display: inline-flex;
+      align-items: center;
+      font-size: 13px;
+      color: #9C6F5C;
+      margin-left: 9vw;
+      margin-top: 2%;
+    }
+
+    .login-page-6 a {
+      font-size: 13px;
+      color: #55392d;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login-page">
+    <div class="login-page-1">
+      <p id="login-title">Login</p>
+    </div>
+    <div class="login-page-2">
+      <input type="text" placeholder="Username" id="username">
+    </div>
+    <div class="login-page-3">
+      <input type="password" placeholder="password" id="password">
+    </div>
+
+    <div class="login-page-4">
+      <button id="login-btn">Login</button>
+    </div>
+    <div class="login-page-5">
+      <a href="dummy.html" target="_blank">Forgot password?</a>
+    </div>
+    <div class="login-page-6">
+      <p>Don't have an account?</p>
+      <a href="dummy.html" target="_blank">Register</a>
+    </div>
+  </div>
+</body>
+
+</html>
